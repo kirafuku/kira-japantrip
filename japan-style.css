@@ -1,0 +1,158 @@
+body {
+    padding:20px;
+    background: linear-gradient(pink,orange, rgb(247, 57, 57));
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, p {
+    text-align: center;
+    color:white;
+}
+.date{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.description{
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: large;
+}
+ .center {
+    display: inline-block;
+    margin-left:200px;
+    width: 30%;
+    padding-bottom: 20px;
+  }
+ 
+
+.grid{
+    display:inline-block;
+    margin-left:40px;
+    margin-right: auto;
+    padding:5px;
+    width:20%
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+hr{
+    height:2px;
+    background-color: brown;
+    border-color:brown;
+}
+.label{
+    font-size: clamp(1rem, 2.5vw, 2rem);     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+h2, .description{
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    color:white;
+}
+.gallery{
+    display:inline-block;
+}
+
+.entire-gallery{
+    display:inline-block;
+}
+
+.icon{
+    width:32px;
+    height:32px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+fieldset{
+    border-color: pink;
+    border-width: 10px;
+    border-style:solid;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.container{
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr;
+ column-gap: 5px;
+}
+
+
+.food-descrip {
+    font-size: 20px;
+    text-align:right;
+}
+
+.museum-descrip{
+    text-align: right;
+    display: inline-block;
+}
+.food-descrip p{
+    text-align: right;
+    line-height: 120%;
+}
+p1{
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.disneyland{
+    display: inline-flex;
+}
+p1{
+    display: block;
+}
+.stars{
+    font-size: 150%;
+    background: hotpink;
+    margin-left: 70%;
+    border-radius: 15px;
+    display:block;
+    padding-right: 10px;
+}
+
+a{
+    font-size: 200%;
+    color: pink;
+}
+
+.ghibli{
+    align-items: center;
+    display: block;
+}
+
+.inter, .hakone{
+    display: inline-flex;
+}
+
+.twentyone-museum {
+    display:inline-flex ;
+}
+ 
+legend{
+    font-size:200%;
+    font-weight: bold;
+}
+
+.suggestions-pic{
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.museums-side{
+    float: right;
+}
+
+.labels-sug{
+    text-align: center;
+}
